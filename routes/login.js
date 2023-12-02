@@ -6,4 +6,6 @@ const router = express.Router();
 router.get("/register", registerView);
 router.get("/", loginView);
 
+
+
 module.exports = router;
